@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Payment Receipt - e-Portal</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/modification_stylesheet.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="index.html">e-Portal</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="profile.html">pROFILE</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="payment-form.html">Payment</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page payment-page">
+        <section class="clean-block payment-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info d-print-none">Payment status</h2>
+                    <p class="d-print-none">Your payment details is shown below</p>
+                </div>
+                <form>
+                    <div class="text-success products d-print-none">
+                        <div class="item">
+                            <div class="text-center"><i class="fa fa-check" style="font-size: 46px;"></i></div>
+                            <p class="text-center text-success item-name">Payment successful</p>
+                            <p class="text-center item-description">Your payment was received successfully. Please click on the print button below to print your receipt</p>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <h3 class="text-center title">Payment Receipt</h3>
+                        <h3 class="text-center text-info title">Payment Reference: 2541KUL5411</h3>
+                        <div class="form-row">
+                            <div class="col col-md-7">
+                                <div>
+                                    <p class="text-secondary">Session: 2018/2019</p>
+                                </div>
+                            </div>
+                            <div class="col col-md-5">
+                                <div>
+                                    <p class="text-secondary">Date: 20/11/2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>First Name:</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>John</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>Last Name:</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>Doe</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>JAMB reg. no.:</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>36005454KG</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>JAMB score</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>256</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>Secondary school</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>Edosa High School, Benin</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-7">
+                                        <p>Year of graduation</p>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <p>2013</p>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group"><button class="btn btn-primary d-print-none" type="button" id="print-window-btn" style="padding: 20px;">Print receipt<i class="icon-printer" style="padding: 0px 5px 0px 5px;"></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark d-print-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-4">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-4">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright © of Delsu e-portal</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/added_scripts.js"></script>
+</body>
+
+</html>
